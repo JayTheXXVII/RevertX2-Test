@@ -1,0 +1,26 @@
+@import url("https://cdn.jsdelivr.net/gh/JayTheXXVII/RevertX2@refs/heads/main/RevertX2.css");
+/*Left Sidebar List Alignment*/
+.ppjvheuqvs8mmcHwKkK5 {gap: 0px; padding-inline-start: unset;}
+.spotify__container--is-desktop.spotify__os--is-macos .Root__globalNav, .spotify__container--is-desktop.spotify__os--is-windows .Root__globalNav, .Root__globalNav {padding-top: 64px !important; right: 7px;}
+.custom-navlinks-scrollable_container div[role="presentation"] {position: relative; right: 8px !important;}
+.Root__globalNav .main-globalNav-searchContainer, .Root__globalNav .search-searchCategory-categoryGrid > div[role="presentation"] {width: 100% !important; row-gap: 0px;}
+.IEulmRakQT_FgH43ov2a {display: none;}
+.spotify__container--is-desktop.spotify__os--is-macos .Root__globalNav, .spotify__container--is-desktop.spotify__os--is-windows .Root__globalNav, .Root__globalNav {container-type: inline-size;}
+.EZ0DodWeNZb_gDFdrJ95, .b2LUdwZOrUuUETSvak0G {display: contents !important;}
+.lsrLTX2g9H3hmP5QCUcr {margin-inline-start: 30px !important;}
+.BFcR3FeXWsIvQXHYY0ZP ._lVH_C166JV99SJFGZsI, .YourLibraryX:has(:focus-visible) .BFcR3FeXWsIvQXHYY0ZP ._lVH_C166JV99SJFGZsI, .YourLibraryX:hover .BFcR3FeXWsIvQXHYY0ZP ._lVH_C166JV99SJFGZsI {opacity: 1; transform: translateX(80%);}
+.main-yourLibraryX-headerContent, .Root__nav-bar .main-yourLibraryX-headerContent {padding-top: 0.2rem !important; padding-bottom: 0.5rem !important;}
+.bWCF4uPvQVdToZfID_NP ._lVH_C166JV99SJFGZsI {left: 10px; position: relative;}
+/*Show Library Button*/
+.ytvhgfquuy5jutqXeseA {display: none;}
+/*Playlist Filters*/
+.main-yourLibraryX-libraryFilter, .main-yourLibraryX-filterArea {visibility: visible !important; display: flex !important;}
+/*Left Sidebar Scrollbar Alignment*/
+.LayoutResizer__resize-bar, .Root__nav-bar .LayoutResizer__resize-bar {right: -2px !important; left: unset !important; bottom: 0px;}
+/*Left Sidebar Background Colour*/
+.main-yourLibraryX-libraryContainer {background-color: var(--spice-sidebar);}
+/*Settings Top Alignment*/
+.x-settings-container {position: relative; top: 64px !important;}
+/*Item Background*/
+.Root__main-view .main-card-cardContainer, .Root__main-view .BoxComponent-group-card-naked-isInteractive {background-color: unset !important;}
+
