@@ -157,7 +157,7 @@
 .Root__globalNav .main-topBar-topbarContentRight {
 	right: 0px !important; /*right: 0.5rem;*/
     top: 18px !important;
-    margin-inline-end: 27em !important;
+    margin-inline-end: 12em !important;
 }
 
 .spotify__container--is-desktop.spotify__os--is-windows
@@ -477,7 +477,12 @@ body:has(#sort-and-view-picker) .main-yourLibraryX-libraryFilter,
 .Root__top-container {
 	gap: 0px;
 	padding-left: 0px;
+	padding-right: 0px !important;
 }
+.Root__top-container[data-right-sidebar-hidden="false"] {
+    padding-right: 0px !important;
+}
+
 
 /* Main View */
 .Root__main-view {
@@ -570,10 +575,10 @@ button[data-restore-focus-key="now_playing_view"],
 	padding: 0 0.75rem;
 }
 
-.Root__right-sidebar {
+/*.Root__right-sidebar {
 	margin-right: -8px;
 }
-/*#Desktop_PanelContainer_Id {
+#Desktop_PanelContainer_Id {
 	padding-top: 2rem;
 }*/
 #Desktop_PanelContainer_Id > div {
