@@ -463,7 +463,7 @@ body:has(#sort-and-view-picker) .main-yourLibraryX-libraryFilter,
 	width: 20px;
 }
 .Root__globalNav .main-topBar-topbarContentRight {
-	right: calc(var(--panel-width, var(--right-sidebar-width)) * 1px + 8px) !important;
+	/*right: calc(var(--panel-width, var(--right-sidebar-width)) * 1px + 8px) !important;*/
 	top: 8px;
 }
 
@@ -573,9 +573,9 @@ button[data-restore-focus-key="now_playing_view"],
 .Root__right-sidebar {
 	margin-right: -8px;
 }
-#Desktop_PanelContainer_Id {
+/*#Desktop_PanelContainer_Id {
 	padding-top: 2rem;
-}
+}*/
 #Desktop_PanelContainer_Id > div {
 	position: relative;
 }
