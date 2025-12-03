@@ -1,9 +1,11 @@
 /*RTLx2*/
 /*Right Sidebar*/
 .Root__right-sidebar {grid-area: left-sidebar !important; min-inline-size: -webkit-fill-available !important; width: calc(var(--zoom-level) * 1px) !important;}
+
 /*Pointer Events*/
 .Root__right-sidebar {pointer-events: none;}
 aside#Desktop_PanelContainer_Id {pointer-events: auto;}
+
 /*Right Sidebar Left Layout Resizer*/
 .LayoutResizer__inline-start {visibility: hidden !important;}
 
@@ -14,3 +16,6 @@ aside#Desktop_PanelContainer_Id {pointer-events: auto;}
 .oXO9_yYs6JyOwkBn8E4a {aspect-ratio: 1 / 1.13;}
 .oXO9_yYs6JyOwkBn8E4a:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"]) {margin-bottom: 0px !important; align-self: end; min-inline-size: -webkit-fill-available; }
 .Root__right-sidebar:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"]) { align-self:flex-end;justify-content: center;}
+
+/*More Options Button*/
+button.Button-sc-1dqy6lx-0.Button-buttonTertiary-small-iconOnly-useBrowserDefaultFocusStyle.e-91000-overflow-wrap-anywhere.e-91000-button-tertiary--icon-only.yiRHu4qsmlXpKcnFQsm2[aria-haspopup="menu"] {display: none !important;}
