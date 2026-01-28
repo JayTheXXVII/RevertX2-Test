@@ -130,7 +130,7 @@ form.e-91000-form-input-icon.e-91000-baseline.e-91000-form-input-icon--leading.e
 /*History Buttons*/
 .Root__globalNav .main-globalNav-historyButtons {
     left: var(--left-sidebar-width) !important;
-    top: -14.5rem !important;
+    top: -24 ex !important;
     gap: 0.5rem !important;
     position: relative !important;
     /*right: -60px !important;*/
