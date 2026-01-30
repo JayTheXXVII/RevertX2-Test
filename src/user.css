@@ -808,8 +808,28 @@ form.e-91000-form-input-icon.e-91000-baseline.e-91000-form-input-icon--leading.e
     /*right: -60px !important;*/
     z-index: 9999 !important;
 }
+/*Liked Songs*/
+h1.e-91000-text.encore-text-headline-large.encore-internal-color-text-base {font-weight: 800;}
+
+/*Added to Liked Songs*/
+.AA8IVAzONfovGI_AXLiA, .Rj4YSJDNkTlqbgIm9bIc, .uN8EjaZaYswJTZsnVaXy {padding: 5px;}
+
+/*Add to Playlist Buttons*/
+span.e-91000-baseline.e-91000-overflow-wrap-anywhere.e-91000-button-primary__inner.encore-inverted-light-set.e-91000-button--small {min-width: 150%;}
+.ydcgD0V4w7dneQxhyJtF {padding: 12px 34px 12px 24px;}
+
 /*Marketplace Topbar*/
 .marketplace-header {top: var(--top-bar-height) !important;}
+
+/*Marketplace Top Bar Active*/
+a.marketplace-tabBar-headerItemLink.marketplace-tabBar-active {color: black; background: white; font-weight: 700 !important;}
+/*Marketplace Top Bar Hover*/
+a.marketplace-tabBar-headerItemLink:hover {backdrop-filter: brightness(1.5);}
+
+/*Marketplace Readme Topbar*/
+.contentSpacing:has(#marketplace-readme) .marketplace-header {top: 0px !important; mix-blend-mode: normal;}
+.marketplace-header__right {padding-right: 32ex;}
+
 /*Artist Page Topbar*/
 .main-topBar-container {height: 64px;}
 .main-topBar-container .contentSpacing {padding-top: 10px;}
