@@ -695,6 +695,9 @@ section[data-testid*="playlist"] {
 /*Item Background*/
 .Root__main-view .main-card-cardContainer, .Root__main-view .BoxComponent-group-card-naked-isInteractive {background-color: unset !important;}
 
+
+
+
 /*To Consolidate*/
 /*Accented Fix*/
  .main-entityHeader-backgroundColor.E6B69KorCyIUBzy_sSt8, .spotify__container--is-desktop:not(.fullscreen) .main-topBar-background , .main-entityHeader-backgroundColor:not(.__transparent, .main-home-homeHeader, .main-actionBarBackground-background)  {background: var(--background-base) !important;}
@@ -847,3 +850,7 @@ form.e-91000-form-input-icon.e-91000-baseline.e-91000-form-input-icon--leading.e
 /*Beautiful Lyrics Fix*/
 .Heart.Filled {display: none !important;}
 
+/*Better Local Files Header Fix*/
+.e-91000-box--padding-custom {padding: var(--box-padding, var(--box-padding-block-start) var(--box-padding-inline-end) var(--box-padding-block-end) var(--box-padding-inline-start)) !important;}
+.lsrLTX2g9H3hmP5QCUcr {font-weight: bold;}
+.TabBar-module__tabBar___DxQjm_betterDlocalDfiles ul li {pointer-events: all; z-index: 99999; app-region: no-drag;}
