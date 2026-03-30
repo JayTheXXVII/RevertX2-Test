@@ -1,6 +1,6 @@
 /*RTLx2*/
 /*Right Sidebar*/
-.Root__right-sidebar {grid-area: left-sidebar !important; min-inline-size: -webkit-fill-available !important; width: calc(var(--zoom-level) * 1px) !important;}
+.Root__right-sidebar {grid-area: left-sidebar !important; min-inline-size: -webkit-fill-available !important; width: calc(var(--zoom-level) * 0px) !important;}
 
 /*Pointer Events*/
 .Root__right-sidebar {pointer-events: none;}
