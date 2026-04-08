@@ -41,8 +41,8 @@ div#main-view:has(.LyricsContainer) {margin-top: -68px;}
 /*.main-view-container__scroll-node-child {min-height: calc(-673px + 1700vh) !important;}*/
 .main-topBar-topbarContentWrapper {max-width: 75%;}
 /*Playlist Page*/
-main.hy5GSmgGlKpqnNN19mRv:has([data-testid="playlist-page"]/*, [data-testid="album-page"]*/) {padding-top: 48px;}
-/*Album Page*/
+/*main.hy5GSmgGlKpqnNN19mRv:has([data-testid="playlist-page"]/*, [data-testid="album-page"]*/) {padding-top: 48px;}*/
+/*Album & Playlist Page*/
 .main-entityHeader-container.main-entityHeader-containerNormal {min-height: calc(var(--min-fluid-height) * 1.2) !important}
 /*Settings Page*/
 [data-testid="settings-page"] {padding-top: 88px;}
