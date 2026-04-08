@@ -35,3 +35,21 @@ aside#Desktop_PanelContainer_Id, .Root__nav-bar, .Root__right-sidebar aside {--s
 div#main-view:has(.LyricsContainer) {margin-top: -68px;}
 .Root__main-view:has(#SpicyLyricsPage), .Root__main-view:has(#SpicyLyricsPage) .KL8t9WB65UfUEPuTFAhO, .Root__main-view:has(#SpicyLyricsPage) .main-content-view, .Root__main-view:has(#SpicyLyricsPage) .main-view-container, .Root__main-view:has(#SpicyLyricsPage) .main-view-container__scroll-node, .Root__main-view:has(#SpicyLyricsPage) .main-view-container {height: 110% !important;}
 #SpicyLyricsPage .ViewControls .ViewControl {margin-top: 50px;}
+/*Marketplace*/
+.main-topBar-container:has(.marketplace-tabBar) {contain: unset; margin-top: -10px;}
+.marketplace-header {top: 114px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 120px;}
+/*.main-view-container__scroll-node-child {min-height: calc(-673px + 1700vh) !important;}*/
+.main-topBar-topbarContentWrapper {max-width: 75%;}
+/*Playlist Page*/
+main.hy5GSmgGlKpqnNN19mRv:has([data-testid="playlist-page"]/*, [data-testid="album-page"]*/) {padding-top: 48px;}
+/*Album Page*/
+.main-entityHeader-container.main-entityHeader-containerNormal {min-height: calc(var(--min-fluid-height) * 1.2) !important}
+/*Settings Page*/
+[data-testid="settings-page"] {padding-top: 88px;}
+/*Scrollbar*/
+.spotify__container--is-desktop.spotify__os--is-windows .main-view-container__scroll-node>.os-scrollbar-vertical {top: 65px !important;}
+.os-theme-spotify.os-scrollbar {min-width: 10px !important; --os-handle-min-size: 100px;}
+/*Drag*/
+.main-globalNav-historyButtonsContainer, .XkJKUsFLQrqnS2jNdVe4 {app-region: drag;}
+.main-globalNav-searchInputSection, .Root__globalNav .main-globalNav-navLink, button.Button-sc-1dqy6lx-0.Button-buttonTertiary-medium-iconOnly-useBrowserDefaultFocusStyle.e-91000-overflow-wrap-anywhere.e-91000-button-tertiary--icon-only.link-subtle.main-globalNav-navLink.main-globalNav-link-icon.custom-navlink {app-region: no-drag !important;}
+
