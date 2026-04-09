@@ -1,9 +1,13 @@
-/*RevertX3*/
 /*Spice-color*/
 :root {
 --spice-button-active: var(--spice-color) !important;
---spice-button: var(---spice-color) !important;
 --spice-button: var(--spice-color) !important;
+--background-base: var(--spice-color) !important;
+--is-active-fg-color: var(--spice-color) !important;
+--spice-button: var(--spice-color) !important;
+--is-active-fg-color: var(--spice-color) !important;
+--spice-button-active: var(--spice-color) !important;
+--lyrics-color-active: var(--spice-color) !important;
 --background-highlight: var(--spice-color) !important;
 --eq-spice: var(--eq-red);/*<<<---------------Change This to change the colour of the Now Plaing EQ Animated Gif---------------<<<*/
 --eq-red:  url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-red.gif)  !important;
@@ -16,6 +20,8 @@
 --eq--pink: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-pink.gif)  !important;
 --eq--white: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-white.gif)  !important;}
 img.X_HqPouENflGygaUXNus, ._HqPouENflGygaUXNus, [data-playing-indicator]:has([src="/images/equaliser-animated-green.gif"])::before {content: var(--eq-spice) !important;}
+
+/*RevertX3*/
 /*Top Nav*/.Root__globalNav {background-color: #121212;  margin: unset !important; padding: calc(var(--panel-gap));}
 div#Desktop_LeftSidebar_Id {margin-top: -64px !important; padding-top: 64px !important;}
 .Root__globalNav.Y5DSUJKOG6sI99LanZGL, .custom-navlinks-scrollable_container div[role="presentation"] > *:not(:last-child) {z-index: 9999;}
@@ -46,8 +52,9 @@ aside#Desktop_PanelContainer_Id, .Root__nav-bar, .Root__right-sidebar aside {--s
 .main-yourLibraryX-libraryContainer, .UCyimCp8rEfL5nB8paBu {background-color: black;}
 /*Layout Resizer*/.LayoutResizer__inline-end:after, .LayoutResizer__inline-start:after {height: calc(150% - 0px) !important;}
 /*Now Playing Bar*/
-.Root__now-playing-bar {    background-color: var(--background-base)}
+.Root__now-playing-bar {background-color: var(--background-base)}
 .main-nowPlayingBar-nowPlayingBar, .MfKPo1Td_7mXkJB911JT {padding: 4px; margin-top: 4px; margin-bottom: 4px;}
+.main-nowPlayingBar-right {display: flex !important;}
 /*SpicyLyrics*/
 div#main-view:has(.LyricsContainer) {margin-top: -68px;}
 .Root__main-view:has(#SpicyLyricsPage), .Root__main-view:has(#SpicyLyricsPage) .KL8t9WB65UfUEPuTFAhO, .Root__main-view:has(#SpicyLyricsPage) .main-content-view, .Root__main-view:has(#SpicyLyricsPage) .main-view-container, .Root__main-view:has(#SpicyLyricsPage) .main-view-container__scroll-node, .Root__main-view:has(#SpicyLyricsPage) .main-view-container {height: 110% !important;}
@@ -69,4 +76,24 @@ div#main-view:has(.LyricsContainer) {margin-top: -68px;}
 /*Drag*/
 .main-globalNav-historyButtonsContainer, .XkJKUsFLQrqnS2jNdVe4 {app-region: drag;}
 .main-globalNav-searchInputSection, .Root__globalNav .main-globalNav-navLink, button.Button-sc-1dqy6lx-0.Button-buttonTertiary-medium-iconOnly-useBrowserDefaultFocusStyle.e-91000-overflow-wrap-anywhere.e-91000-button-tertiary--icon-only.link-subtle.main-globalNav-navLink.main-globalNav-link-icon.custom-navlink {app-region: no-drag !important;}
+
+/*RTLx3*/
+/*Right Sidebar*/
+.Root__right-sidebar {grid-area: left-sidebar !important; min-inline-size: -webkit-fill-available !important; width: calc(var(--zoom-level) * 0px) !important;}
+/*Pointer Events*/
+.Root__right-sidebar {pointer-events: none;}
+aside#Desktop_PanelContainer_Id {pointer-events: auto;}
+/*Right Sidebar Left Layout Resizer*/
+.LayoutResizer__inline-start {visibility: hidden !important;}
+/*Album Art on Canvas*/
+.u_oJcTzbq1mJ8qfhBggZ .DyIlapjoCthUuSOzmJGD {opacity: 90% !important; visibility: visible !important; z-index: 1 !important;}
+/*RTL Scaling/ Alignment*/
+.oXO9_yYs6JyOwkBn8E4a {aspect-ratio: 1 / 1.13;}
+.oXO9_yYs6JyOwkBn8E4a:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"], [aria-label="Connect to a device"]) {margin-bottom: 0px !important; align-self: end; min-inline-size: -webkit-fill-available;}
+.Root__right-sidebar:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"], [aria-label="Connect to a device"]) {align-self:flex-end;justify-content: center; z-index: 5 !important;}
+/*More Options Button*/
+button.Button-sc-1dqy6lx-0.Button-buttonTertiary-small-iconOnly-useBrowserDefaultFocusStyle.e-91000-overflow-wrap-anywhere.e-91000-button-tertiary--icon-only.yiRHu4qsmlXpKcnFQsm2[aria-haspopup="menu"] {display: none !important;}
+/*Devices*/
+.oXO9_yYs6JyOwkBn8E4a {min-width: -webkit-fill-available !important;}
+.FNi2RAtuzIc9THq8HYIW.qzdTjGAQRC8wD24IVpoA {padding: 8px 16px !important;}
 
