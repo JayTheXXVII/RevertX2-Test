@@ -1,4 +1,21 @@
 /*RevertX3*/
+/*Spice-color*/
+:root {
+--spice-button-active: var(--spice-color) !important;
+--spice-button: var(---spice-color) !important;
+--spice-button: var(--spice-color) !important;
+--background-highlight: var(--spice-color) !important;
+--eq-spice: var(--eq-red);/*<<<---------------Change This to change the colour of the Now Plaing EQ Animated Gif---------------<<<*/
+--eq-red:  url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-red.gif)  !important;
+--eq-green: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-green.gif)  !important;
+--eq--blue: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-blue.gif)  !important;
+--eq--orange: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-orange.gif)  !important;
+--eq--yellow: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-yellow.gif)  !important;
+--eq--purple: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-purple.gif)  !important;
+--eq--magenta: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-magenta.gif)  !important;
+--eq--pink: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-pink.gif)  !important;
+--eq--white: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX2-Test/refs/heads/main/assets/equaliser-animated-white.gif)  !important;}
+img.X_HqPouENflGygaUXNus, ._HqPouENflGygaUXNus, [data-playing-indicator]:has([src="/images/equaliser-animated-green.gif"])::before {content: var(--eq-spice) !important;}
 /*Top Nav*/.Root__globalNav {background-color: #121212;  margin: unset !important; padding: calc(var(--panel-gap));}
 div#Desktop_LeftSidebar_Id {margin-top: -64px !important; padding-top: 64px !important;}
 .Root__globalNav.Y5DSUJKOG6sI99LanZGL, .custom-navlinks-scrollable_container div[role="presentation"] > *:not(:last-child) {z-index: 9999;}
